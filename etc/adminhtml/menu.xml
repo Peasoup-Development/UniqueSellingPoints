@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Peasoup_UniqueSellingPoints::usps" title="Store Finder" module="Peasoup_UniqueSellingPoints" sortOrder="15" resource="Peasoup_UniqueSellingPoints::usps" parent="Magento_Backend::stores" />
+        <add id="Peasoup_UniqueSellingPoints::usps_item" title="Manage Stores" module="Peasoup_UniqueSellingPoints" sortOrder="15" action="uniquesellingpoints/item/index" resource="Peasoup_UniqueSellingPoints::usps" parent="Peasoup_UniqueSellingPoints::usps" />
+    </menu>
+</config>
